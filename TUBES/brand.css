@@ -1,0 +1,84 @@
+main {
+    padding: 100px 10% 150px 8%;
+}
+
+main a {
+    display: block;
+}
+
+.brand-logo {
+    width: 200px;
+}
+
+#popup-brand1,
+#popup-brand2,
+#popup-brand3,
+#popup-brand4,
+#popup-brand5,
+#popup-brand6,
+#popup-brand7,
+#popup-brand8 {
+    padding: 5%;
+    display: none;
+}
+
+#title-daihatsu, #title-datsun, #title-honda, #title-suzuki, #title-toyota, #title-wuling, #title-DFSK, #title-MG {
+    display: none;
+}
+
+.pic {
+    width: 100%;
+}
+
+main .pic img {
+    display: block;
+    margin: auto;
+    width: clamp(280px, 50%, 900px);
+}
+
+/* Heading Styling */
+h2 {
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+h2:hover {
+    background-color: rgb(229, 229, 229);
+    color: black;
+    border: 1px solid black;
+}
+
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5,
+#box-6,
+#box-7,
+#box-8 {
+    padding: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#box-1:hover,
+#box-2:hover,
+#box-3:hover,
+#box-4:hover,
+#box-5:hover,
+#box-6:hover,
+#box-7:hover,
+#box-8:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(126, 126, 126);
+}
+iframe{
+    width: clamp(280px, 50%, 900px);
+    display: block;
+    margin: auto;
+
+}
