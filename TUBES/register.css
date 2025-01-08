@@ -1,0 +1,5 @@
+#jqpolicy {
+    height: 0;
+    display: none;
+    transition: 0.5s;
+}
